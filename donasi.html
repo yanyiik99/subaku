@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donasi</title>
+    <!-- CSS  -->
+    <link rel="stylesheet" href="asset/styles.css" />
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="icons/all.min.css" />
+    <link rel="stylesheet" href="icons/fontawesome.min.css" />
+
+    <!-- fancybox -->
+    <link rel="stylesheet" href="fancybox/dist/jquery.fancybox.css" />
+
+    <!-- Jquery -->
+    <script
+      type="text/javascript"
+      src="plugin/jquery/jquery-3.5.1.min.js"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Start Donasi Section -->
+    <section id="donasi-page-section">
+      <nav>
+        <div class="menu">
+          <div class="navbar">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="img/logo/logo.svg" alt="" />
+                </a>
+              </li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Donasi</a></li>
+              <li><a href="#">Daftar</a></li>
+            </ul>
+            <div class="burger">
+              <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="donasi-page-container">
+        <div class="right">
+          <img src="img/donasi-page/glass-bg.svg" width="100%" alt="" />
+        </div>
+        <div class="left">
+          <h1 style="text-align: center">Ayo Berdonasi</h1>
+          <form action="#">
+            <div class="form-donasi">
+              <div class="bank">
+                <div class="bri">
+                  <div class="bri-details">
+                    <input type="radio" id="bri" name="bank" />
+                    <label for="bri" style="margin-left: 10px"
+                      >Bank Rakyat Indonesia</label
+                    >
+                  </div>
+                  <span>
+                    <img
+                      src="img/donasi-page/bank/bri.png"
+                      width="50px"
+                      alt=""
+                    />
+                  </span>
+                </div>
+                <div class="bni">
+                  <div class="bni-details">
+                    <input type="radio" id="bni" name="bank" />
+                    <label for="bni" style="margin-left: 10px"
+                      >Bank Nasional Indonesia</label
+                    >
+                  </div>
+                  <span>
+                    <img src="img/donasi-page/bank/bni.png" alt="" />
+                  </span>
+                </div>
+              </div>
+              <div class="rekening">
+                <div class="rek">
+                  <label for="noRek">No Rekening</label>
+                  <input
+                    type="text"
+                    id="noRek"
+                    placeholder="41414 - 404 - 424 "
+                  />
+                </div>
+                <div class="date-nominal">
+                  <div class="expiry-date">
+                    <label for="expiry">Expiry Date</label>
+                    <input
+                      type="date"
+                      id="expiry"
+                      placeholder="11 / 02 / 2022"
+                    />
+                  </div>
+                  <div class="nominal">
+                    <label for="nominal">Nominal</label>
+                    <input
+                      type="text"
+                      id="nominal"
+                      placeholder="2.000.000,00"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="btn-kirim">
+                <button type="button">
+                  <a href="donasi.html">Kirim</a>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- End Donasi Section -->
+
+    <section id="footer-section">
+      <div class="footer-container-donasi">
+        <div class="footer-wraping">
+          <div class="footer-left">
+            <h4>Company</h4>
+            <a href="#">Home</a>
+            <a href="#">FAQ</a>
+            <a href="#">About Us</a>
+          </div>
+          <div class="footer-center">
+            <div class="logo">
+              <img src="img/logo/logo.svg" alt="" />
+            </div>
+            <div class="social-media">
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-youtube"></i>
+              <i class="fab fa-twitter"></i>
+            </div>
+          </div>
+          <div class="footer-right">
+            <h4>Our Program</h4>
+            <a href="#">Pelatihan</a>
+            <a href="#">Donasi</a>
+            <a href="#">Dukung Petani</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My JavaScript  -->
+    <script src="asset/script.js"></script>
+
+    <!-- FancyBox -->
+    <script
+      type="text/javascript"
+      src="fancybox/dist/jquery.fancybox.js"
+    ></script>
+  </body>
+</html>
